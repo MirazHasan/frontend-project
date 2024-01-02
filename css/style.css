@@ -1,0 +1,111 @@
+.navbar {
+  background: black; }
+  .navbar .nav-item {
+    padding-left: 1em; }
+
+.carousel-item {
+  width: 100%;
+  height: 450px; }
+  .carousel-item .carousel-caption h2 {
+    color: white; }
+
+.carousel-img-1 {
+  background: url("../img/image1.jpeg");
+  background-size: cover; }
+
+.carousel-img-2 {
+  background: url("../img/image2.jpeg");
+  background-size: cover; }
+
+.carousel-img-3 {
+  background: url("../img/image3.jpeg");
+  background-size: cover; }
+
+#homeicon .fa {
+  font-size: 50px; }
+
+#getstarted {
+  background: url("../img/bg1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 250px;
+  position: relative; }
+  #getstarted .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+#home-video {
+  background: url("../img/people.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 250px;
+  position: relative;
+  background-attachment: fixed; }
+  #home-video .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%; }
+    #home-video .dark-overlay .fa {
+      font-size: 50px;
+      color: #ff0000; }
+
+#gallery img {
+  min-height: 250px; }
+
+#copyright {
+  background: black; }
+
+#page-header {
+  background: url("../img/image1.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px; }
+
+#about-info img {
+  width: 350px;
+  height: 350px; }
+
+#icon-boxes .fa {
+  font-size: 50px;
+  margin-bottom: 20px; }
+
+#service-header {
+  background: url("../img/image3.jpeg");
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+#blog-header {
+  background: url("../img/image3.jpeg");
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+#testimonial .slick-next::before {
+  color: black; }
+
+#testimonial .slick-prev::before {
+  color: black; }
+
+@media (max-width: 767px) {
+  .nav-item {
+    padding-left: 0 !important; }
+  #getstarted {
+    min-height: 300px; } }
+
+@media (max-width: 480px) {
+  .carousel h2 {
+    font-size: 2.5rem; }
+  #getstarted {
+    min-height: 400px; } }
